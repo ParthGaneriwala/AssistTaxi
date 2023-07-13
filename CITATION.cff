@@ -1,0 +1,19 @@
+cff-version: 1.1.0
+message: "If you use this software, please cite it as below."
+authors:
+  - family-names: Ganeriwala
+    given-names: Parth 
+    orcid: https://orcid.org/0000-0002-4270-5733
+ - family-names: Bhattacharyya
+    given-names: Siddhartha
+ - family-names: Gunther
+    given-names: Sean
+ - family-names: Kish
+    given-names: Brian
+ - family-names: Khan
+    given-names: Mohammed Abdul Hafeez
+ - family-names: Dhadoti
+    given-names: Ankur 
+title: AssistTaxi: v1.1
+version: v1.1
+date-released: 2023-07-13
