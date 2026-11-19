@@ -1,0 +1,254 @@
+[
+  {
+    "sample_id": "afternoon_camera-center_1",
+    "time_of_day": "Afternoon",
+    "camera_angle": "Camera-Center",
+    "path": "v1/original_daytime/camera-center/1.MP4"
+  },
+  {
+    "sample_id": "afternoon_camera-center_11",
+    "time_of_day": "Afternoon",
+    "camera_angle": "Camera-Center",
+    "path": "v1/original_daytime/camera-center/11.mp4"
+  },
+  {
+    "sample_id": "afternoon_camera-center_12",
+    "time_of_day": "Afternoon",
+    "camera_angle": "Camera-Center",
+    "path": "v1/original_daytime/camera-center/12.mp4"
+  },
+  {
+    "sample_id": "afternoon_camera-center_13",
+    "time_of_day": "Afternoon",
+    "camera_angle": "Camera-Center",
+    "path": "v1/original_daytime/camera-center/13.mp4"
+  },
+  {
+    "sample_id": "afternoon_camera-center_5",
+    "time_of_day": "Afternoon",
+    "camera_angle": "Camera-Center",
+    "path": "v1/original_daytime/camera-center/5.MP4"
+  },
+  {
+    "sample_id": "afternoon_camera-center_GX010039-003",
+    "time_of_day": "Afternoon",
+    "camera_angle": "Camera-Center",
+    "path": "v1/original_daytime/camera-center/GX010039-003.MP4"
+  },
+  {
+    "sample_id": "afternoon_camera-center_GX010040",
+    "time_of_day": "Afternoon",
+    "camera_angle": "Camera-Center",
+    "path": "v1/original_daytime/camera-center/GX010040.MP4"
+  },
+  {
+    "sample_id": "afternoon_camera-center_GX010041",
+    "time_of_day": "Afternoon",
+    "camera_angle": "Camera-Center",
+    "path": "v1/original_daytime/camera-center/GX010041.MP4"
+  },
+  {
+    "sample_id": "afternoon_camera-center_GX010042",
+    "time_of_day": "Afternoon",
+    "camera_angle": "Camera-Center",
+    "path": "v1/original_daytime/camera-center/GX010042.MP4"
+  },
+  {
+    "sample_id": "afternoon_camera-center_GX020031-002",
+    "time_of_day": "Afternoon",
+    "camera_angle": "Camera-Center",
+    "path": "v1/original_daytime/camera-center/GX020031-002.MP4"
+  },
+  {
+    "sample_id": "afternoon_camera-left_3",
+    "time_of_day": "Afternoon",
+    "camera_angle": "Camera-Left",
+    "path": "v1/original_daytime/camera-left/3.MP4"
+  },
+  {
+    "sample_id": "afternoon_camera-right_10",
+    "time_of_day": "Afternoon",
+    "camera_angle": "Camera-Right",
+    "path": "v1/original_daytime/camera-right/10.MP4"
+  },
+  {
+    "sample_id": "afternoon_camera-right_2",
+    "time_of_day": "Afternoon",
+    "camera_angle": "Camera-Right",
+    "path": "v1/original_daytime/camera-right/2.MP4"
+  },
+  {
+    "sample_id": "afternoon_camera-right_4",
+    "time_of_day": "Afternoon",
+    "camera_angle": "Camera-Right",
+    "path": "v1/original_daytime/camera-right/4.MP4"
+  },
+  {
+    "sample_id": "afternoon_camera-right_6",
+    "time_of_day": "Afternoon",
+    "camera_angle": "Camera-Right",
+    "path": "v1/original_daytime/camera-right/6.MP4"
+  },
+  {
+    "sample_id": "afternoon_camera-right_7",
+    "time_of_day": "Afternoon",
+    "camera_angle": "Camera-Right",
+    "path": "v1/original_daytime/camera-right/7.MP4"
+  },
+  {
+    "sample_id": "afternoon_camera-right_8",
+    "time_of_day": "Afternoon",
+    "camera_angle": "Camera-Right",
+    "path": "v1/original_daytime/camera-right/8.MP4"
+  },
+  {
+    "sample_id": "afternoon_camera-right_9",
+    "time_of_day": "Afternoon",
+    "camera_angle": "Camera-Right",
+    "path": "v1/original_daytime/camera-right/9.MP4"
+  },
+  {
+    "sample_id": "early morning_cam-center_GX010001",
+    "time_of_day": "Early Morning",
+    "camera_angle": "Cam-Center",
+    "path": "v2/round1_glare/camera-center/GX010001.MP4"
+  },
+  {
+    "sample_id": "early morning_cam-center_GX010002",
+    "time_of_day": "Early Morning",
+    "camera_angle": "Cam-Center",
+    "path": "v2/round1_glare/camera-center/GX010002.MP4"
+  },
+  {
+    "sample_id": "early morning_cam-center_GX010003-007",
+    "time_of_day": "Early Morning",
+    "camera_angle": "Cam-Center",
+    "path": "v2/round1_glare/camera-center/GX010003-007.MP4"
+  },
+  {
+    "sample_id": "early morning_cam-center_GX010004",
+    "time_of_day": "Early Morning",
+    "camera_angle": "Cam-Center",
+    "path": "v2/round1_glare/camera-center/GX010004.MP4"
+  },
+  {
+    "sample_id": "early morning_cam-center_GX010005",
+    "time_of_day": "Early Morning",
+    "camera_angle": "Cam-Center",
+    "path": "v2/round1_glare/camera-center/GX010005.MP4"
+  },
+  {
+    "sample_id": "early morning_cam-center_GX010006-001",
+    "time_of_day": "Early Morning",
+    "camera_angle": "Cam-Center",
+    "path": "v2/round1_glare/camera-center/GX010006-001.MP4"
+  },
+  {
+    "sample_id": "early morning_cam-center_GX010007",
+    "time_of_day": "Early Morning",
+    "camera_angle": "Cam-Center",
+    "path": "v2/round1_glare/camera-center/GX010007.MP4"
+  },
+  {
+    "sample_id": "early morning_cam-left_GX010007",
+    "time_of_day": "Early Morning",
+    "camera_angle": "Cam-Left",
+    "path": "v2/round1_glare/camera-left/GX010007.MP4"
+  },
+  {
+    "sample_id": "early morning_cam-left_GX010008",
+    "time_of_day": "Early Morning",
+    "camera_angle": "Cam-Left",
+    "path": "v2/round1_glare/camera-left/GX010008.MP4"
+  },
+  {
+    "sample_id": "early morning_cam-left_GX010009-006",
+    "time_of_day": "Early Morning",
+    "camera_angle": "Cam-Left",
+    "path": "v2/round1_glare/camera-left/GX010009-006.MP4"
+  },
+  {
+    "sample_id": "early morning_cam-left_GX010010",
+    "time_of_day": "Early Morning",
+    "camera_angle": "Cam-Left",
+    "path": "v2/round1_glare/camera-left/GX010010.MP4"
+  },
+  {
+    "sample_id": "early morning_cam-left_GX010011",
+    "time_of_day": "Early Morning",
+    "camera_angle": "Cam-Left",
+    "path": "v2/round1_glare/camera-left/GX010011.MP4"
+  },
+  {
+    "sample_id": "early morning_cam-left_GX010012-010",
+    "time_of_day": "Early Morning",
+    "camera_angle": "Cam-Left",
+    "path": "v2/round1_glare/camera-left/GX010012-010.MP4"
+  },
+  {
+    "sample_id": "early morning_cam-left_GX010013-008",
+    "time_of_day": "Early Morning",
+    "camera_angle": "Cam-Left",
+    "path": "v2/round1_glare/camera-left/GX010013-008.MP4"
+  },
+  {
+    "sample_id": "early morning_cam-right_GX010002",
+    "time_of_day": "Early Morning",
+    "camera_angle": "Cam-Right",
+    "path": "v2/round1_glare/camera-right/GX010002.MP4"
+  },
+  {
+    "sample_id": "early morning_cam-right_GX010003",
+    "time_of_day": "Early Morning",
+    "camera_angle": "Cam-Right",
+    "path": "v2/round1_glare/camera-right/GX010003.MP4"
+  },
+  {
+    "sample_id": "early morning_cam-right_GX010004-004",
+    "time_of_day": "Early Morning",
+    "camera_angle": "Cam-Right",
+    "path": "v2/round1_glare/camera-right/GX010004-004.MP4"
+  },
+  {
+    "sample_id": "early morning_cam-right_GX010005",
+    "time_of_day": "Early Morning",
+    "camera_angle": "Cam-Right",
+    "path": "v2/round1_glare/camera-right/GX010005.MP4"
+  },
+  {
+    "sample_id": "early morning_cam-right_GX010006",
+    "time_of_day": "Early Morning",
+    "camera_angle": "Cam-Right",
+    "path": "v2/round1_glare/camera-right/GX010006.MP4"
+  },
+  {
+    "sample_id": "early morning_cam-right_GX010007-013",
+    "time_of_day": "Early Morning",
+    "camera_angle": "Cam-Right",
+    "path": "v2/round1_glare/camera-right/GX010007-013.MP4"
+  },
+  {
+    "sample_id": "early morning_cam-right_GX010008-009",
+    "time_of_day": "Early Morning",
+    "camera_angle": "Cam-Right",
+    "path": "v2/round1_glare/camera-right/GX010008-009.MP4"
+  },
+  {
+    "sample_id": "night_camera-bottom_GX010009",
+    "time_of_day": "Night",
+    "camera_angle": "Camera-Bottom",
+    "path": "v2/round2_vehicle_night/camera-bottom/GX010009.MP4"
+  },
+  {
+    "sample_id": "night_camera-center_GX010016",
+    "time_of_day": "Night",
+    "camera_angle": "Camera-Center",
+    "path": "v2/round2_vehicle_night/camera-center/GX010016.MP4"
+  },
+  {
+    "sample_id": "night_camera-top_GX010015",
+    "time_of_day": "Night",
+    "camera_angle": "Camera-Top",
+    "path": "v2/round2_vehicle_night/camera-top/GX010015.MP4"
+  }
+]

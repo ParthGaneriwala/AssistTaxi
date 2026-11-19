@@ -1,0 +1,16 @@
+# Raw videos are hosted on Zenodo (see README), not in git: GitHub rejects files > 100 MB.
+*.MP4
+*.mp4
+*.THM
+*.LRV
+
+# Local-only
+_duplicates/
+_reorg_log.csv
+*.zip
+
+# OS / editor
+Thumbs.db
+desktop.ini
+.DS_Store
+__pycache__/
