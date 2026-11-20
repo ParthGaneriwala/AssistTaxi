@@ -44,10 +44,11 @@ def main():
     out = []
     for vid in man:
         fps, n = float(man[vid]["fps"]), int(man[vid]["frame_count"])
+        last_end = max(e for _, e, _ in segs[vid])
         for s, e, surf in segs[vid]:
-            if surf not in SURFACES:
+            if surf not in SURFACES or s >= e:
                 continue
-            if e >= n / fps - 1:  # segment ends are whole seconds; the last one runs to the end
+            if e == last_end and e >= n / fps - 1:  # ends are whole seconds; the last runs to the end
                 e = n / fps
             a, b = max(0, round(s * fps)), min(n, round(e * fps)) - 1
             if a <= b:

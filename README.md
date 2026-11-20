@@ -61,6 +61,8 @@ python tools/make_manifest.py
 python tools/make_samples.py
 ```
 
+`python tools/validate.py` checks a release against the specification: unique identifiers, factor values in the schema with no unknowns on sampled videos, disjoint sample ranges within each video, and, where the reference split is present, disjoint blocks that contain only samples, guard intervals between blocks and one labeled camera per run. It also checks that the v1 contour labels are unchanged since the v1.1 tag.
+
 ## Extracting frames
 
 ```
