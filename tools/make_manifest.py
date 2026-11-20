@@ -16,6 +16,9 @@ ROUNDS = {  # path prefix -> (round code, release, platform, condition, date, ti
 }
 V1_FEB_2023 = {"GX010039-003", "GX010042", "GX020031-002"}  # all other v1 videos: 2022-05-19
 R3_NIGHT_FROM = 26  # GX010026 onward recorded after civil twilight; earlier ones are dusk
+# Round 1 runs after the sun is up (X59 landing and taxi, return to KMLB), all three cameras
+R1_DAYTIME = {"center-GX010006-001", "center-GX010007", "left-GX010012-010", "left-GX010013-008",
+              "right-GX010007-013", "right-GX010008-009"}
 
 
 def video_rows():
@@ -37,6 +40,8 @@ def main():
         view = cam.replace("camera-", "").replace("cam-", "")
         if code == "r0":
             date = "2023-02-19" if vid in V1_FEB_2023 else "2022-05-19"
+        if code == "r1" and f"{view}-{vid}" in R1_DAYTIME:
+            cond = "daytime"
         if code == "r3":
             cond = "night" if int(vid[-3:]) >= R3_NIGHT_FROM else "dusk"
         rows.append({"video_id": f"{code}-{view}-{vid}", "release": rel, "path": path,
