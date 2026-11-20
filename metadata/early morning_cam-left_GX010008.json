@@ -18,7 +18,8 @@
   "collection": {
     "vehicle_id": null,
     "sensor_mount": "cam-left",
-    "collected_by": "AssistLab"
+    "collected_by": "AssistLab",
+    "airport": "KMLB"
   },
   "timestamp": {
     "ingested_at": "2025-12-12T16:34:12.590831Z"

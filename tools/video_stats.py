@@ -74,11 +74,11 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("folder", type=str, help="Folder containing videos")
     ap.add_argument("--out_csv", type=str, default="video_stats.csv", help="Output CSV path")
-    ap.add_argument("--frames_dir", type=str, default="frame_examples", help="Where to save middle-frame images")
+    ap.add_argument("--frames_dir", type=str, default=None, help="Optional: also save each video's middle frame here")
     args = ap.parse_args()
 
     folder = Path(args.folder).expanduser().resolve()
-    frames_dir = Path(args.frames_dir).expanduser().resolve()
+    frames_dir = Path(args.frames_dir).expanduser().resolve() if args.frames_dir else None
     out_csv = Path(args.out_csv).expanduser().resolve()
 
     videos = [p for p in folder.rglob("*") if p.suffix.lower() in VIDEO_EXTS]
@@ -86,7 +86,7 @@ def main():
 
     for vp in sorted(videos):
         row = {
-            "file": str(vp),
+            "file": vp.relative_to(Path.cwd()).as_posix() if vp.is_relative_to(Path.cwd()) else str(vp),
             "container_format": None,
             "size_bytes": vp.stat().st_size if vp.exists() else None,
 
@@ -151,14 +151,13 @@ def main():
                     row["frame_count_est"] = None
 
             # Extract middle frame image
-            stem = vp.stem
-            out_img = frames_dir / f"{stem}_middle.jpg"
-            prefer_idx = None
-            if row["frame_count_est"] is not None:
-                prefer_idx = int(row["frame_count_est"] // 2)
-
-            ok = extract_middle_frame_opencv(vp, out_img, prefer_frame_index=prefer_idx)
-            row["middle_frame_path"] = str(out_img) if ok else None
+            if frames_dir is not None:
+                out_img = frames_dir / f"{vp.stem}_middle.jpg"
+                prefer_idx = None
+                if row["frame_count_est"] is not None:
+                    prefer_idx = int(row["frame_count_est"] // 2)
+                ok = extract_middle_frame_opencv(vp, out_img, prefer_frame_index=prefer_idx)
+                row["middle_frame_path"] = str(out_img) if ok else None
 
         if astreams:
             a = astreams[0]
@@ -173,7 +172,8 @@ def main():
 
     print(f"Found {len(videos)} videos under: {folder}")
     print(f"Wrote CSV: {out_csv}")
-    print(f"Middle frames (when possible) saved to: {frames_dir}")
+    if frames_dir:
+        print(f"Middle frames saved to: {frames_dir}")
 
 if __name__ == "__main__":
     main()

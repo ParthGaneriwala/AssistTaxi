@@ -6,7 +6,19 @@
 
 # Local-only
 _duplicates/
+_excluded/
+Lab PC/
+*.partial/
+
+# Large data hosted on Zenodo, not in git
+v1/original_daytime/frames/
+v1/original_daytime/gopro/
+labels/*
+!labels/cdlem/
+labels/cdlem/*
+!labels/cdlem/v1_5/
 _reorg_log.csv
+_labpc_copy.log
 *.zip
 
 # OS / editor
@@ -14,3 +26,9 @@ Thumbs.db
 desktop.ini
 .DS_Store
 __pycache__/
+
+# held until the HILL paper is submitted (labels and the split built on them)
+splits/
+tools/make_split.py
+_reorg_labels_log.csv
+_labpc_copy.log

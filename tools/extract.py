@@ -45,7 +45,38 @@ def extract_top_sharpest_frames(video_path, output_dir, top_n=100):
     cap.release()
     print("Finished extracting top sharpest frames!")
 
-# Example usage
-video_file = 'GX010009.mp4'
-output_folder = 'output_frames'
-extract_top_sharpest_frames(video_file, output_folder)
+def extract_frames(video_path, output_dir, video_id, samples_csv=None):
+    """Write frames as <video_id>-<frame index:06d>.jpg, the v3 sample IDs.
+    With samples_csv (metadata/samples_v3.csv), only frames that are samples are written."""
+    keep = None
+    if samples_csv:
+        import csv
+        keep = [(int(r["first_frame"]), int(r["last_frame"]))
+                for r in csv.DictReader(open(samples_csv, newline="")) if r["video_id"] == video_id]
+    os.makedirs(output_dir, exist_ok=True)
+    cap = cv2.VideoCapture(video_path)
+    index = 0
+    while True:
+        ret, frame = cap.read()
+        if not ret:
+            break
+        if keep is None or any(a <= index <= b for a, b in keep):
+            cv2.imwrite(os.path.join(output_dir, f"{video_id}-{index:06d}.jpg"), frame)
+        index += 1
+    cap.release()
+    print(f"Read {index} frames from {video_path}")
+
+
+if __name__ == "__main__":
+    import argparse
+    p = argparse.ArgumentParser(description="Extract frames from an AssistTaxi video.")
+    p.add_argument("video")
+    p.add_argument("output_dir")
+    p.add_argument("--video-id", help="write every frame as <video-id>-<index>.jpg (see metadata/manifest_v3.csv)")
+    p.add_argument("--samples", help="with --video-id: only frames listed in this samples_v3.csv")
+    p.add_argument("--top", type=int, default=100, help="otherwise: keep the N sharpest frames")
+    a = p.parse_args()
+    if a.video_id:
+        extract_frames(a.video, a.output_dir, a.video_id, a.samples)
+    else:
+        extract_top_sharpest_frames(a.video, a.output_dir, a.top)

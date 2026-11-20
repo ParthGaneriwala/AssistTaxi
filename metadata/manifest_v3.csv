@@ -1,0 +1,63 @@
+video_id,release,path,airport,viewpoint,condition,platform,date,time_of_day,fps,frame_count
+r0-center-1,v1,v1/original_daytime/camera-center/1.MP4,KMLB,center,daytime,cockpit,2022-05-19,afternoon,59.94,42420
+r0-center-11,v1,v1/original_daytime/camera-center/11.mp4,KMLB,center,daytime,cockpit,2022-05-19,afternoon,30.01,2100
+r0-center-12,v1,v1/original_daytime/camera-center/12.mp4,KMLB,center,daytime,cockpit,2022-05-19,afternoon,30.01,1178
+r0-center-13,v1,v1/original_daytime/camera-center/13.mp4,KMLB,center,daytime,cockpit,2022-05-19,afternoon,30.01,1824
+r0-center-5,v1,v1/original_daytime/camera-center/5.MP4,KMLB,center,daytime,cockpit,2022-05-19,afternoon,59.94,5653
+r0-center-GX010039-003,v1,v1/original_daytime/camera-center/GX010039-003.MP4,KMLB,center,daytime,cockpit,2023-02-19,afternoon,59.94,21319
+r0-center-GX010042,v1,v1/original_daytime/camera-center/GX010042.MP4,KMLB,center,daytime,cockpit,2023-02-19,afternoon,59.94,12179
+r0-center-GX020031-002,v1,v1/original_daytime/camera-center/GX020031-002.MP4,KMLB,center,daytime,cockpit,2023-02-19,afternoon,29.97,21300
+r0-left-3,v1,v1/original_daytime/camera-left/3.MP4,KMLB,left,daytime,cockpit,2022-05-19,afternoon,59.94,38764
+r0-right-10,v1,v1/original_daytime/camera-right/10.MP4,KMLB,right,daytime,cockpit,2022-05-19,afternoon,59.94,12044
+r0-right-2,v1,v1/original_daytime/camera-right/2.MP4,KMLB,right,daytime,cockpit,2022-05-19,afternoon,59.94,42420
+r0-right-6,v1,v1/original_daytime/camera-right/6.MP4,KMLB,right,daytime,cockpit,2022-05-19,afternoon,59.94,42420
+r0-right-7,v1,v1/original_daytime/camera-right/7.MP4,X59,right,daytime,cockpit,2022-05-19,afternoon,59.94,42420
+r0-right-8,v1,v1/original_daytime/camera-right/8.MP4,X59,right,daytime,cockpit,2022-05-19,afternoon,59.94,42420
+r0-right-9,v1,v1/original_daytime/camera-right/9.MP4,KMLB,right,daytime,cockpit,2022-05-19,afternoon,59.94,42420
+r1-center-GX010001,v2,v2/round1_glare/camera-center/GX010001.MP4,KMLB,center,glare,cockpit,2024-12-17,early morning,59.94,13531
+r1-center-GX010002,v2,v2/round1_glare/camera-center/GX010002.MP4,KMLB,center,glare,cockpit,2024-12-17,early morning,59.94,9698
+r1-center-GX010003-007,v2,v2/round1_glare/camera-center/GX010003-007.MP4,KMLB,center,glare,cockpit,2024-12-17,early morning,59.94,75406
+r1-center-GX010004,v2,v2/round1_glare/camera-center/GX010004.MP4,KMLB,center,glare,cockpit,2024-12-17,early morning,59.94,7509
+r1-center-GX010005,v2,v2/round1_glare/camera-center/GX010005.MP4,X59,center,glare,cockpit,2024-12-17,early morning,59.94,12309
+r1-center-GX010006-001,v2,v2/round1_glare/camera-center/GX010006-001.MP4,X59,center,glare,cockpit,2024-12-17,early morning,59.94,65032
+r1-center-GX010007,v2,v2/round1_glare/camera-center/GX010007.MP4,KMLB,center,glare,cockpit,2024-12-17,early morning,59.94,41569
+r1-left-GX010007,v2,v2/round1_glare/camera-left/GX010007.MP4,KMLB,left,glare,cockpit,2024-12-17,early morning,59.94,13767
+r1-left-GX010008,v2,v2/round1_glare/camera-left/GX010008.MP4,KMLB,left,glare,cockpit,2024-12-17,early morning,59.94,10250
+r1-left-GX010009-006,v2,v2/round1_glare/camera-left/GX010009-006.MP4,KMLB,left,glare,cockpit,2024-12-17,early morning,59.94,75157
+r1-left-GX010010,v2,v2/round1_glare/camera-left/GX010010.MP4,KMLB,left,glare,cockpit,2024-12-17,early morning,59.94,7016
+r1-left-GX010011,v2,v2/round1_glare/camera-left/GX010011.MP4,X59,left,glare,cockpit,2024-12-17,early morning,59.94,13043
+r1-left-GX010012-010,v2,v2/round1_glare/camera-left/GX010012-010.MP4,X59,left,glare,cockpit,2024-12-17,early morning,59.94,64343
+r1-left-GX010013-008,v2,v2/round1_glare/camera-left/GX010013-008.MP4,KMLB,left,glare,cockpit,2024-12-17,early morning,59.94,42247
+r1-right-GX010002,v2,v2/round1_glare/camera-right/GX010002.MP4,KMLB,right,glare,cockpit,2024-12-17,early morning,59.94,13401
+r1-right-GX010003,v2,v2/round1_glare/camera-right/GX010003.MP4,KMLB,right,glare,cockpit,2024-12-17,early morning,59.94,9891
+r1-right-GX010004-004,v2,v2/round1_glare/camera-right/GX010004-004.MP4,KMLB,right,glare,cockpit,2024-12-17,early morning,59.94,75268
+r1-right-GX010005,v2,v2/round1_glare/camera-right/GX010005.MP4,KMLB,right,glare,cockpit,2024-12-17,early morning,59.94,7288
+r1-right-GX010006,v2,v2/round1_glare/camera-right/GX010006.MP4,X59,right,glare,cockpit,2024-12-17,early morning,59.94,12732
+r1-right-GX010007-013,v2,v2/round1_glare/camera-right/GX010007-013.MP4,X59,right,glare,cockpit,2024-12-17,early morning,59.94,64755
+r1-right-GX010008-009,v2,v2/round1_glare/camera-right/GX010008-009.MP4,KMLB,right,glare,cockpit,2024-12-17,early morning,59.94,41982
+r2-bottom-GX010009,v2,v2/round2_vehicle_night/camera-bottom/GX010009.MP4,X59,bottom,night,vehicle,2025-04-23,night,59.94,108094
+r2-middle-GX010016,v2,v2/round2_vehicle_night/camera-middle/GX010016.MP4,X59,middle,night,vehicle,2025-04-23,night,59.94,109243
+r2-top-GX010015,v2,v2/round2_vehicle_night/camera-top/GX010015.MP4,X59,top,night,vehicle,2025-04-23,night,239.76,434147
+r3-center-GX010010,v3,v3/round3_dusk_night/camera-center/GX010010.MP4,KMLB,center,dusk,cockpit,2026-02-26,evening,119.88,11654
+r3-center-GX010011,v3,v3/round3_dusk_night/camera-center/GX010011.MP4,KMLB,center,dusk,cockpit,2026-02-26,evening,119.88,11275
+r3-center-GX010012,v3,v3/round3_dusk_night/camera-center/GX010012.MP4,KMLB,center,dusk,cockpit,2026-02-26,evening,119.88,7370
+r3-center-GX010013,v3,v3/round3_dusk_night/camera-center/GX010013.MP4,X26,center,dusk,cockpit,2026-02-26,evening,119.88,43870
+r3-center-GX010014,v3,v3/round3_dusk_night/camera-center/GX010014.MP4,X26,center,dusk,cockpit,2026-02-26,evening,119.88,24401
+r3-center-GX010015,v3,v3/round3_dusk_night/camera-center/GX010015.MP4,X26,center,dusk,cockpit,2026-02-26,evening,119.88,30682
+r3-center-GX010016,v3,v3/round3_dusk_night/camera-center/GX010016.MP4,X26,center,dusk,cockpit,2026-02-26,evening,119.88,44623
+r3-center-GX010017,v3,v3/round3_dusk_night/camera-center/GX010017.MP4,X26,center,dusk,cockpit,2026-02-26,evening,119.88,12306
+r3-center-GX010018,v3,v3/round3_dusk_night/camera-center/GX010018.MP4,X26,center,dusk,cockpit,2026-02-26,evening,119.88,13813
+r3-center-GX010019,v3,v3/round3_dusk_night/camera-center/GX010019.MP4,X26,center,dusk,cockpit,2026-02-26,evening,119.88,15904
+r3-center-GX010020,v3,v3/round3_dusk_night/camera-center/GX010020.MP4,X26,center,dusk,cockpit,2026-02-26,evening,119.88,57968
+r3-center-GX010021,v3,v3/round3_dusk_night/camera-center/GX010021.MP4,unknown,center,dusk,cockpit,2026-02-26,evening,29.97,141
+r3-center-GX010022,v3,v3/round3_dusk_night/camera-center/GX010022.MP4,X59,center,dusk,cockpit,2026-02-26,evening,119.88,98858
+r3-center-GX010023,v3,v3/round3_dusk_night/camera-center/GX010023.MP4,unknown,center,dusk,cockpit,2026-02-26,evening,29.97,22
+r3-center-GX010024,v3,v3/round3_dusk_night/camera-center/GX010024.MP4,unknown,center,dusk,cockpit,2026-02-26,evening,29.97,238
+r3-center-GX010025,v3,v3/round3_dusk_night/camera-center/GX010025.MP4,KMLB,center,dusk,cockpit,2026-02-26,evening,119.88,20882
+r3-center-GX010026,v3,v3/round3_dusk_night/camera-center/GX010026.MP4,KMLB,center,night,cockpit,2026-02-26,evening,119.88,24046
+r3-center-GX010027,v3,v3/round3_dusk_night/camera-center/GX010027.MP4,KMLB,center,night,cockpit,2026-02-26,evening,239.76,12612
+r3-center-GX010028,v3,v3/round3_dusk_night/camera-center/GX010028.MP4,KMLB,center,night,cockpit,2026-02-26,evening,59.94,2618
+r3-center-GX010029,v3,v3/round3_dusk_night/camera-center/GX010029.MP4,KMLB,center,night,cockpit,2026-02-26,evening,59.94,6254
+r3-center-GX010030,v3,v3/round3_dusk_night/camera-center/GX010030.MP4,KMLB,center,night,cockpit,2026-02-26,evening,59.94,32385
+r3-center-GX010031,v3,v3/round3_dusk_night/camera-center/GX010031.MP4,KMLB,center,night,cockpit,2026-02-26,evening,59.94,31012
+r3-center-GX010032,v3,v3/round3_dusk_night/camera-center/GX010032.MP4,KMLB,center,night,cockpit,2026-02-26,evening,59.94,27313

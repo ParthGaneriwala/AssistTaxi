@@ -7,7 +7,8 @@
   "file": {
     "file_name": "5.MP4",
     "relative_path": "v1/original_daytime/camera-center/5.MP4",
-    "format": "MP4"
+    "format": "MP4",
+    "original_file_name": "GH020001.MP4"
   },
   "video": {
     "fps": 59.94,
@@ -24,7 +25,8 @@
   },
   "collection": {
     "sensor_mount": "camera-center",
-    "collected_by": "AssistLab"
+    "collected_by": "AssistLab",
+    "airport": "KMLB"
   },
   "timestamp": {
     "ingested_at": "2025-12-12T16:50:07.064413Z"

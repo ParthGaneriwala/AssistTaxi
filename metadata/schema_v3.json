@@ -1,0 +1,102 @@
+{
+  "release": "v3",
+  "unknown_token": "unknown",
+  "not_labeled_token": null,
+  "sample_id": "<video_id>-<frame index, 6 digits>; video_id = <round>-<viewpoint>-<video>, rounds r0 (original), r1, r2, r3; frame index in [0, frame_count) of metadata/manifest_v3.csv",
+  "factors": {
+    "airport": {
+      "values": [
+        "KMLB",
+        "X59",
+        "X26"
+      ],
+      "added": {
+        "KMLB": "v1",
+        "X59": "v1",
+        "X26": "v3"
+      }
+    },
+    "viewpoint": {
+      "values": [
+        "left",
+        "center",
+        "right",
+        "bottom",
+        "middle",
+        "top"
+      ],
+      "added": {
+        "left": "v1",
+        "center": "v1",
+        "right": "v1",
+        "bottom": "v2",
+        "middle": "v2",
+        "top": "v2"
+      }
+    },
+    "condition": {
+      "values": [
+        "daytime",
+        "glare",
+        "dusk",
+        "night"
+      ],
+      "added": {
+        "daytime": "v1",
+        "glare": "v2",
+        "night": "v2",
+        "dusk": "v3"
+      }
+    },
+    "platform": {
+      "values": [
+        "cockpit",
+        "vehicle"
+      ],
+      "added": {
+        "cockpit": "v1",
+        "vehicle": "v2"
+      }
+    },
+    "time": {
+      "fields": {
+        "date": "YYYY-MM-DD, local date",
+        "time_of_day": [
+          "afternoon",
+          "early morning",
+          "night",
+          "evening"
+        ]
+      },
+      "added": "v1"
+    }
+  },
+  "modalities": {
+    "geom/CDLEM": {
+      "added": "v1",
+      "format": "polylines, one .txt per frame"
+    },
+    "geom/ALINA": {
+      "added": "v1",
+      "format": "x y pixel lists, one .txt per frame"
+    },
+    "geom/HILL": {
+      "added": "v3",
+      "format": "CULane .lines.txt per frame"
+    },
+    "mask/HILL": {
+      "added": "v3",
+      "format": "PNG, derived from geom/HILL by the HILL tool"
+    }
+  },
+  "semantic_depth": 1,
+  "semantic_levels": {
+    "1": {
+      "labels": [
+        "Taxiway",
+        "Runway"
+      ],
+      "required": true
+    }
+  }
+}

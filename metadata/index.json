@@ -36,18 +36,6 @@
     "path": "v1/original_daytime/camera-center/GX010039-003.MP4"
   },
   {
-    "sample_id": "afternoon_camera-center_GX010040",
-    "time_of_day": "Afternoon",
-    "camera_angle": "Camera-Center",
-    "path": "v1/original_daytime/camera-center/GX010040.MP4"
-  },
-  {
-    "sample_id": "afternoon_camera-center_GX010041",
-    "time_of_day": "Afternoon",
-    "camera_angle": "Camera-Center",
-    "path": "v1/original_daytime/camera-center/GX010041.MP4"
-  },
-  {
     "sample_id": "afternoon_camera-center_GX010042",
     "time_of_day": "Afternoon",
     "camera_angle": "Camera-Center",
@@ -76,12 +64,6 @@
     "time_of_day": "Afternoon",
     "camera_angle": "Camera-Right",
     "path": "v1/original_daytime/camera-right/2.MP4"
-  },
-  {
-    "sample_id": "afternoon_camera-right_4",
-    "time_of_day": "Afternoon",
-    "camera_angle": "Camera-Right",
-    "path": "v1/original_daytime/camera-right/4.MP4"
   },
   {
     "sample_id": "afternoon_camera-right_6",
@@ -243,7 +225,7 @@
     "sample_id": "night_camera-center_GX010016",
     "time_of_day": "Night",
     "camera_angle": "Camera-Center",
-    "path": "v2/round2_vehicle_night/camera-center/GX010016.MP4"
+    "path": "v2/round2_vehicle_night/camera-middle/GX010016.MP4"
   },
   {
     "sample_id": "night_camera-top_GX010015",
