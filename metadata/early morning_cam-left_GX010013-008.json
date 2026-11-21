@@ -1,0 +1,31 @@
+{
+  "dataset": "ASSISTTaxi",
+  "dataset_version": "1.0",
+  "sample_id": "early morning_cam-left_GX010013-008",
+  "time_of_day": "Early Morning",
+  "camera_angle": "Cam-Left",
+  "file": {
+    "file_name": "GX010013-008.MP4",
+    "relative_path": "v2/round1_glare/camera-left/GX010013-008.MP4",
+    "format": "MP4"
+  },
+  "video": {
+    "fps": 59.94,
+    "frame_count": 42247,
+    "resolution": "3840x2160",
+    "duration_sec": 704.82
+  },
+  "collection": {
+    "vehicle_id": null,
+    "sensor_mount": "cam-left",
+    "collected_by": "AssistLab",
+    "airport": "KMLB"
+  },
+  "timestamp": {
+    "ingested_at": "2025-12-12T16:34:12.902720Z"
+  },
+  "quality": {
+    "is_usable": true,
+    "issues": []
+  }
+}

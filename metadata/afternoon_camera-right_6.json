@@ -1,0 +1,37 @@
+{
+  "dataset": "ASSISTTaxi",
+  "dataset_version": "1.0",
+  "sample_id": "afternoon_camera-right_6",
+  "time_of_day": "Afternoon",
+  "camera_angle": "Camera-Right",
+  "file": {
+    "file_name": "6.MP4",
+    "relative_path": "v1/original_daytime/camera-right/6.MP4",
+    "format": "MP4"
+  },
+  "video": {
+    "fps": 59.94,
+    "frame_count": 42420,
+    "resolution": "1080x1920",
+    "duration_sec": 707.71
+  },
+  "environment": {
+    "lighting": {
+      "mean_brightness": 105.71,
+      "lighting_label": "low_light"
+    },
+    "scene_complexity": null
+  },
+  "collection": {
+    "sensor_mount": "camera-right",
+    "collected_by": "AssistLab",
+    "airport": "KMLB"
+  },
+  "timestamp": {
+    "ingested_at": "2025-12-12T17:16:50.520303Z"
+  },
+  "quality": {
+    "is_usable": true,
+    "issues": []
+  }
+}

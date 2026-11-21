@@ -1,5 +1,7 @@
-cff-version: 1.1.0
-message: "If you use this software, please cite it as below."
+cff-version: 1.2.0
+message: "If you use AssistTaxi, please cite the dataset papers below and the Zenodo record of the version you used."
+title: "AssistTaxi"
+type: dataset
 authors:
   - family-names: "Ganeriwala"
     given-names: "Parth"
@@ -15,7 +17,91 @@ authors:
     given-names: "Ankur"
   - family-names: "Neogi"
     given-names: "Natasha"
-title: "AssistTaxi"
+repository-code: "https://github.com/ParthGaneriwala/AssistTaxi"
+license: Apache-2.0
 version: v1.1
 date-released: 2023-07-13
-url: "https://github.com/ParthGaneriwala/AssistTaxi"
+doi: 10.5281/zenodo.8144439
+preferred-citation:
+  type: conference-paper
+  title: "AssistTaxi: A Comprehensive Dataset for Taxiway Analysis and Autonomous Operations"
+  authors:
+    - family-names: "Ganeriwala"
+      given-names: "Parth"
+    - family-names: "Bhattacharyya"
+      given-names: "Siddhartha"
+    - family-names: "Gunther"
+      given-names: "Sean"
+    - family-names: "Kish"
+      given-names: "Brian"
+    - family-names: "Khan"
+      given-names: "Mohammed Abdul Hafeez"
+    - family-names: "Dhadoti"
+      given-names: "Ankur"
+  collection-title: "2023 International Conference on Machine Learning and Applications (ICMLA)"
+  publisher:
+    name: "IEEE"
+  year: 2023
+  doi: 10.1109/ICMLA58977.2023.00163
+  url: "https://arxiv.org/abs/2409.06856"
+references:
+  - type: conference-paper
+    title: "AssistTaxi-v2: A Scalable Dataset for Taxiway/Runway Scene Understanding Under Diverse Conditions"
+    authors:
+      - family-names: "Ganeriwala"
+        given-names: "Parth"
+      - family-names: "Khan"
+        given-names: "Mohammad Abdul Hafeez"
+      - family-names: "Alvarez"
+        given-names: "Amy"
+      - family-names: "Bhattacharyya"
+        given-names: "Siddhartha"
+      - family-names: "Neogi"
+        given-names: "Natasha A."
+      - family-names: "Lehman"
+        given-names: "Sarah"
+    collection-title: "AIAA SCITECH 2026 Forum"
+    publisher:
+      name: "American Institute of Aeronautics and Astronautics"
+    year: 2026
+    doi: 10.2514/6.2026-1774
+  - type: conference-paper
+    title: "ALINA: Advanced Line Identification and Notation Algorithm"
+    authors:
+      - family-names: "Khan"
+        given-names: "Mohammed Abdul Hafeez"
+      - family-names: "Ganeriwala"
+        given-names: "Parth"
+      - family-names: "Bhattacharyya"
+        given-names: "Siddhartha"
+      - family-names: "Neogi"
+        given-names: "Natasha"
+      - family-names: "Muthalagu"
+        given-names: "Raja"
+    collection-title: "2024 IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops (CVPRW)"
+    publisher:
+      name: "IEEE"
+    year: 2024
+    doi: 10.1109/CVPRW63382.2024.00725
+    url: "https://arxiv.org/abs/2406.08775"
+  - type: conference-paper
+    title: "Runway vs. Taxiway: Challenges in Automated Line Identification and Notation Approaches"
+    authors:
+      - family-names: "Ganeriwala"
+        given-names: "Parth"
+      - family-names: "Alvarez"
+        given-names: "Amy"
+      - family-names: "AlQahtani"
+        given-names: "Abdullah"
+      - family-names: "Bhattacharyya"
+        given-names: "Siddhartha"
+      - family-names: "Khan"
+        given-names: "Mohammed Abdul Hafeez"
+      - family-names: "Neogi"
+        given-names: "Natasha"
+    collection-title: "2025 IEEE International Systems Conference (SysCon)"
+    publisher:
+      name: "IEEE"
+    year: 2025
+    doi: 10.1109/SysCon64521.2025.11014782
+    url: "https://arxiv.org/abs/2501.18494"

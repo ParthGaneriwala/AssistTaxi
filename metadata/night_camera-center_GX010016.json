@@ -1,0 +1,31 @@
+{
+  "dataset": "ASSISTTaxi",
+  "dataset_version": "1.0",
+  "sample_id": "night_camera-center_GX010016",
+  "time_of_day": "Night",
+  "camera_angle": "Camera-Center",
+  "file": {
+    "file_name": "GX010016.MP4",
+    "relative_path": "v2/round2_vehicle_night/camera-middle/GX010016.MP4",
+    "format": "MP4"
+  },
+  "video": {
+    "fps": 59.94,
+    "frame_count": 109243,
+    "resolution": "3840x2160",
+    "duration_sec": 1822.54
+  },
+  "collection": {
+    "vehicle_id": null,
+    "sensor_mount": "camera-middle",
+    "collected_by": "AssistLab",
+    "airport": "X59"
+  },
+  "timestamp": {
+    "ingested_at": "2025-12-12T16:34:13.474856Z"
+  },
+  "quality": {
+    "is_usable": true,
+    "issues": []
+  }
+}
