@@ -39,7 +39,7 @@ Only example frames are stored here. Videos (`*.MP4`) are published on Zenodo (s
 
 Frame counts for Rounds 1 to 3 are estimates derived from recorded duration, at 60 frames per second for Rounds 1 and 2 and at each video's native frame rate for Round 3.
 
-The cockpit rounds before v3 were recorded with three GoPro cameras (left, center, right) and Round 2 with three cameras on the vehicle (bottom, middle, top). Round 3 was recorded with a single center camera. KMLB is a towered airport in Class D airspace, 1.5 miles northwest of downtown Melbourne in Brevard County, Florida. X59 is a non-towered airport in Class G airspace in Grant-Valkaria, Brevard County, Florida.
+The cockpit rounds before v3 were recorded with three GoPro cameras (left, center, right) and Round 2 with three cameras on the vehicle (bottom, middle, top). Round 3 was recorded with a single center camera. KMLB is a towered airport in Class D airspace, 1.5 miles northwest of downtown Melbourne in Brevard County, Florida. X59 is a non-towered airport in Class G airspace in Grant-Valkaria, Brevard County, Florida. X26 (Sebastian Municipal) is a non-towered general aviation airport in Class G airspace in Sebastian, Indian River County, Florida.
 
 ## Metadata
 
