@@ -7,37 +7,58 @@ The dataset is released in versions. Each version adds collection rounds to the 
 ## Repository layout
 
 ```
-v1/  original_daytime/            Original round, cockpit, daytime      (introduced in v1)
-       camera-center/ camera-left/ camera-right/   videos  -> Zenodo
-       video_stats.csv                             per-video stream statistics and airport
-v2/  round1_glare/                Round 1, cockpit, early-morning glare (introduced in v2)
-       camera-center/ camera-left/ camera-right/   videos  -> Zenodo
-       video_stats.csv
-     round2_vehicle_night/        Round 2, ground vehicle, night        (introduced in v2)
-       camera-bottom/ camera-middle/ camera-top/   videos  -> Zenodo
-       video_stats.csv
-v3/  round3_dusk_night/           Round 3, cockpit, dusk to night       (introduced in v3)
-       camera-center/                              videos  -> Zenodo (single camera)
-       video_stats.csv
-*/*/frame_examples/               one example frame per video, named by sample ID
-metadata/                         release schema, video and sample manifests (see Metadata)
-labels/cdlem/v1_5/                contour (CDLEM) polylines for video 5 of v1, as released in v1.1
-tools/                            frame extraction, video statistics, manifest generation
-docs/                             Round 2 vehicle: car_setup.jpg (camera mount), instances/ (views)
+AssistTaxi/
+├── v1/
+│   └── original_daytime/
+│       ├── camera-center/
+│       ├── camera-left/
+│       ├── camera-right/
+│       └── video_stats.csv
+├── v2/
+│   ├── round1_glare/
+│   │   ├── camera-center/
+│   │   ├── camera-left/
+│   │   ├── camera-right/
+│   │   └── video_stats.csv
+│   └── round2_vehicle_night/
+│       ├── camera-bottom/
+│       ├── camera-middle/
+│       ├── camera-top/
+│       └── video_stats.csv
+├── v3/
+│   └── round3_dusk_night/
+│       ├── camera-center/
+│       └── video_stats.csv
+├── metadata/
+│   ├── schema_v3.json
+│   ├── manifest_v3.csv
+│   ├── samples_v3.csv
+│   └── surface_segments.csv
+├── labels/
+│   └── cdlem/v1_5/
+├── tools/
+│   ├── extract.py
+│   ├── video_stats.py
+│   ├── make_manifest.py
+│   ├── make_samples.py
+│   └── validate.py
+└── docs/
+    ├── car_setup.jpg
+    └── instances/
 ```
 
-Only example frames are stored here. Videos (`*.MP4`) are published on Zenodo (see [Download](#download)); extracted frames are not distributed, and `tools/extract.py` reproduces them from the videos.
+Each release contains one example frame per video under `*/frame_examples/`, named by sample ID. Videos (`*.MP4`) are published on Zenodo (see [Download](#download)); only example frames and metadata are stored in this repository. Use `tools/extract.py` to reproduce extracted frames from the videos.
 
 ## Collection rounds
 
-| Round | Date | Airports | Platform | Condition | Introduced in | Approx. frames |
+| Round | Date | Airports | Platform | Condition | Introduced in | Frames |
 |---|---|---|---|---|---|---|
-| Original | May 19, 2022; Feb. 19, 2023 | KMLB, X59 | Cockpit | Daytime | v1 | 350,000 |
-| Round 1 | Dec. 17, 2024 | KMLB, X59 | Cockpit | Early-morning glare | v2 | 650,000 |
-| Round 2 | Apr. 23, 2025 | X59 | Vehicle | Night | v2 | 324,000 |
-| Round 3 | Feb. 26, 2026 | KMLB, X59, X26 | Cockpit | Dusk to night | v3 | 530,000 |
+| Original | May 19, 2022; Feb. 19, 2023 | KMLB, X59 | Cockpit | Daytime | v1 | 370,881 |
+| Round 1 | Dec. 17, 2024 | KMLB, X59 | Cockpit | Early-morning glare | v2 | 676,194 |
+| Round 2 | Apr. 23, 2025 | X59 | Vehicle | Night | v2 | 651,484 |
+| Round 3 | Feb. 26, 2026 | KMLB, X59, X26 | Cockpit | Dusk to night | v3 | 530,247 |
 
-Frame counts for Rounds 1 to 3 are estimates derived from recorded duration, at 60 frames per second for Rounds 1 and 2 and at each video's native frame rate for Round 3.
+The frame counts above are the decoded-frame totals in `metadata/manifest_v3.csv`. Each value sums `frame_count` across all videos in that round.
 
 The cockpit rounds before v3 were recorded with three GoPro cameras (left, center, right) and Round 2 with three cameras on the vehicle (bottom, middle, top). Round 3 was recorded with a single center camera. KMLB is a towered airport in Class D airspace, 1.5 miles northwest of downtown Melbourne in Brevard County, Florida. X59 is a non-towered airport in Class G airspace in Grant-Valkaria, Brevard County, Florida. X26 (Sebastian Municipal) is a non-towered general aviation airport in Class G airspace in Sebastian, Indian River County, Florida.
 
@@ -69,7 +90,7 @@ python tools/make_samples.py
 python tools/extract.py <video.MP4> <out_dir> --video-id <video_id> [--samples metadata/samples_v3.csv]
 ```
 
-writes `<video_id>-<frame index>.jpg`, matching the sample IDs; `--samples` keeps only frames that are samples. Without `--video-id`, the script keeps the 100 sharpest frames of the video.
+writes `<video_id>-<frame index>.jpg`, matching the sample IDs; `--samples` keeps only frames that are samples. Without `--video-id`, the script keeps the 100 sharpest frames of the video. Use `--top <n>` to change that default.
 
 ## Annotations and reference split
 
