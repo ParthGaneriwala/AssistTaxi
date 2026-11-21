@@ -22,6 +22,19 @@ license: Apache-2.0
 version: v1.1
 date-released: 2023-07-13
 doi: 10.5281/zenodo.8144439
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.24410169
+    description: "AssistTaxi videos, all versions (resolves to the latest)"
+  - type: doi
+    value: 10.5281/zenodo.24410170
+    description: "AssistTaxi videos v1: original round"
+  - type: doi
+    value: 10.5281/zenodo.24411351
+    description: "AssistTaxi videos v2: Rounds 1 and 2"
+  - type: doi
+    value: 10.5281/zenodo.24422418
+    description: "AssistTaxi videos v3: complete set"
 preferred-citation:
   type: conference-paper
   title: "AssistTaxi: A Comprehensive Dataset for Taxiway Analysis and Autonomous Operations"

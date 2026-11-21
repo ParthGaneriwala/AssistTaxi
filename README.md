@@ -86,11 +86,12 @@ The ALINA and HILL annotations and the v3 reference split (train, validation and
 | Record | Content | DOI |
 |---|---|---|
 | v1.1 (2023) | Repository snapshot of the original release: extracted frames and CDLEM labels | [10.5281/zenodo.8144439](https://doi.org/10.5281/zenodo.8144439) |
-| v1 videos | Original round, 15 videos | to be added |
-| Round 1, center | 7 videos | to be added |
-| Round 1, left and right | 14 videos | to be added |
-| Round 2 | 3 videos | to be added |
-| Round 3 | 23 videos | to be added |
+| Videos, all versions | Concept record: always resolves to the latest version | [10.5281/zenodo.24410169](https://doi.org/10.5281/zenodo.24410169) |
+| Videos v1 | Original round, 15 videos | [10.5281/zenodo.24410170](https://doi.org/10.5281/zenodo.24410170) |
+| Videos v2 | Round 1 (21 videos) and Round 2 (3 videos) | [10.5281/zenodo.24411351](https://doi.org/10.5281/zenodo.24411351) |
+| Videos v3 | Complete set: original round and Rounds 1 to 3 (62 videos) | [10.5281/zenodo.24422418](https://doi.org/10.5281/zenodo.24422418) |
+
+Versions v1 and v2 hold only the rounds they add; version v3 holds every video of release v3. Files are one uncompressed zip per camera folder; unzipping at the repository root places every video at its `path` in `metadata/manifest_v3.csv`.
 
 ## Publications
 
