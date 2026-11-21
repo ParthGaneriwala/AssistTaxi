@@ -33,6 +33,7 @@ AssistTaxi/
 │   ├── schema_v3.json
 │   ├── manifest_v3.csv
 │   ├── samples_v3.csv
+│   ├── frame_examples_v3.txt
 │   └── surface_segments.csv
 ├── labels/
 │   └── cdlem/v1_5/
@@ -41,6 +42,7 @@ AssistTaxi/
 │   ├── video_stats.py
 │   ├── make_manifest.py
 │   ├── make_samples.py
+│   ├── make_image_list.py
 │   └── validate.py
 └── docs/
     ├── car_setup.jpg
@@ -81,6 +83,21 @@ To regenerate the manifests after editing the metadata:
 python tools/make_manifest.py
 python tools/make_samples.py
 ```
+
+`metadata/frame_examples_v3.txt` provides a standardized, one-relative-path-per-line
+manifest for the example frames stored in this repository.
+
+After downloading and extracting the full videos, generate a manifest containing
+every sampled frame:
+
+```
+python tools/make_image_list.py --output metadata/image_list_v3.txt
+```
+
+Use `--images-root <directory>` when extracted frames are outside the repository.
+The generated paths are `--images-root/<video_id>-<frame index>.jpg`, and the
+command can be restricted with `--release`, `--airport`, `--viewpoint`, or
+`--surface`.
 
 `python tools/validate.py` checks a release against the specification: unique identifiers, factor values in the schema with no unknowns on sampled videos, disjoint sample ranges within each video, and, where the reference split is present, disjoint blocks that contain only samples, guard intervals between blocks and one labeled camera per run. It also checks that the v1 contour labels are unchanged since the v1.1 tag.
 
