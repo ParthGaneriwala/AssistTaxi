@@ -79,7 +79,7 @@ Three labeling procedures have been applied to AssistTaxi imagery, and each is k
 - **ALINA** (Advanced Line Identification and Notation Algorithm) [3], applied to 60,249 taxiway frames of v1. Its limits on runway imagery are reported in [4].
 - **HILL** (Human-In-the-Loop Labeling), introduced with v2 [2]: polylines and derived masks for Round 1 and Round 2 frames.
 
-The ALINA and HILL annotations and the v3 reference split (train, validation and test manifests drawn by 15-second clips) will be published here and on Zenodo before the v3 release.
+The ALINA and HILL annotations and the v3 reference split (train, validation and test manifests drawn by 15-second clips) are archived on Zenodo ([10.5281/zenodo.24448734](https://doi.org/10.5281/zenodo.24448734)). The record's metadata are public; its files are available on request until their public release.
 
 ## Download
 
@@ -90,6 +90,7 @@ The ALINA and HILL annotations and the v3 reference split (train, validation and
 | Videos v1 | Original round, 15 videos | [10.5281/zenodo.24410170](https://doi.org/10.5281/zenodo.24410170) |
 | Videos v2 | Round 1 (21 videos) and Round 2 (3 videos) | [10.5281/zenodo.24411351](https://doi.org/10.5281/zenodo.24411351) |
 | Videos v3 | Complete set: original round and Rounds 1 to 3 (62 videos) | [10.5281/zenodo.24422418](https://doi.org/10.5281/zenodo.24422418) |
+| Annotations and split v3 | CDLEM, ALINA and HILL labels, v3 reference split and `make_split.py` (files on request) | [10.5281/zenodo.24448734](https://doi.org/10.5281/zenodo.24448734) |
 
 Versions v1 and v2 hold only the rounds they add; version v3 holds every video of release v3. Files are one uncompressed zip per camera folder; unzipping at the repository root places every video at its `path` in `metadata/manifest_v3.csv`.
 

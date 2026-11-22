@@ -35,6 +35,9 @@ identifiers:
   - type: doi
     value: 10.5281/zenodo.24422418
     description: "AssistTaxi videos v3: complete set"
+  - type: doi
+    value: 10.5281/zenodo.24448734
+    description: "AssistTaxi annotations (CDLEM, ALINA, HILL) and v3 reference split"
 preferred-citation:
   type: conference-paper
   title: "AssistTaxi: A Comprehensive Dataset for Taxiway Analysis and Autonomous Operations"
